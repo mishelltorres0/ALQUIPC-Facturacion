@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>ALQUIPC - Facturación</title>
+    <link rel="stylesheet" href="alquipc.css">
+</head>
+<body>
+
+<div class="card">
+    <h2>Facturación ALQUIPC</h2>
+
+    <label>Nombre Cliente</label>
+    <input type="text" id="nombre">
+
+    <label>Telefono</label>
+    <input type="text" id="telefono">
+
+    <label>Equipos (mínimo 2)</label>
+    <input type="number" id="equipos">
+
+    <label>Días iniciales</label>
+    <input type="number" id="dias">
+
+    <label>Días adicionales</label>
+    <input type="number" id="extra">
+
+    <label>Tipo de alquiler</label>
+    <select id="tipo">
+        <option value="ciudad">Dentro de la ciudad</option>
+        <option value="fuera">Fuera de la ciudad </option>
+        <option value="local">Dentro del establecimiento</option>
+    </select>
+
+    <button onclick="calcular()">Calcular</button>
+
+    <div id="resultado"></div>
+</div>
+
+<script src="alquipc.js"></script>
+</body>
+</html>
