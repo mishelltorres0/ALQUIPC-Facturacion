@@ -48,6 +48,7 @@ if(tipo === "local"){
 
 let id = Math.floor(Math.random() * 10000);
 
+
 document.getElementById("resultado").innerHTML =
 "Nombre Cliente: " + nombre + "<br>" +
 "Telefono: " + telefono + "<br>" +
@@ -55,6 +56,9 @@ document.getElementById("resultado").innerHTML =
 "Equipos: " + equipos + "<br>" +
 "Días iniciales: " + dias + "<br>" +
 "Días adicionales: " + extra + "<br>" +
+"Descuento por días adicionales: $" + descuentoExtra.toFixed(0) + "<br>" +
+"Subtotal: $" + subtotal.toFixed(0) + "<br>" +
 "Total a pagar: $" + total.toFixed(0);
+
 
 }
