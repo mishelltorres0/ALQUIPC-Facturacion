@@ -57,8 +57,10 @@ document.getElementById("resultado").innerHTML =
 "Días iniciales: " + dias + "<br>" +
 "Días adicionales: " + extra + "<br>" +
 "Descuento por días adicionales: $" + descuentoExtra.toFixed(0) + "<br>" +
+"Descuento por dias iniciales: $" + (subtotal * 0.05).toFixed(0) + "<br>" +
 "Subtotal: $" + subtotal.toFixed(0) + "<br>" +
 "Total a pagar: $" + total.toFixed(0);
 
 
 }
+
